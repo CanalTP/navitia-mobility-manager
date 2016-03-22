@@ -1,6 +1,6 @@
 canal_tp_nmm_portal:
     navitia:
         url: 'https://navitia' #replace the url of navitia
-        token: abgytc #repalce this token by your token navitia
+        token: abgytc #replace this token by your token navitia
         format: object
 
