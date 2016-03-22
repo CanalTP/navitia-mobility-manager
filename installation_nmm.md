@@ -27,13 +27,7 @@
 <h4>1. Clone the repository</h4>
 
 
-<h4>2. Install PHP dependencies</h4>
-
- 	curl -sS https://getcomposer.org/installer | php
-
-	composer.phar install --prefer-source
-
-<h4>3.In your project</h4>
+<h4>2.In your project</h4>
  
 	app/config/parameters.yml.dist
 
@@ -43,6 +37,15 @@ create the files above without the `.dist` extension .
 
 
 You can also export environment variables (see the different .dist files above)
+
+
+<h4>3. Install PHP dependencies</h4>
+
+ 	curl -sS https://getcomposer.org/installer | php
+
+	composer.phar install --prefer-source
+
+
 
 <h4>4 .Set permissions to cache, logs and uploads directories</h4>
 
