@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'NMM-Modes';
+    src:url('../../bundles/canaltpnmmportal/fonts/modes/NMM-Modes.eot?-llaz0');
+    src:url('../../bundles/canaltpnmmportal/fonts/modes/NMM-Modes.eot?#iefix-llaz0') format('embedded-opentype'),
+        url('../../bundles/canaltpnmmportal/fonts/modes/NMM-Modes.woff?-llaz0') format('woff'),
+        url('../../bundles/canaltpnmmportal/fonts/modes/NMM-Modes.ttf?-llaz0') format('truetype'),
+        url('../../bundles/canaltpnmmportal/fonts/modes/NMM-Modes.svg?-llaz0#NMM-Modes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'NMM-Modes';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mode-walk:before {
+    content: "\e600";
+}
+
+.icon-mode-tramway:before {
+    content: "\e601";
+}
+
+.icon-mode-train:before {
+    content: "\e602";
+}
+
+.icon-mode-subway:before {
+    content: "\e603";
+}
+
+.icon-mode-school:before {
+    content: "\e604";
+}
+
+.icon-mode-plane:before {
+    content: "\e605";
+}
+
+.icon-mode-odt:before {
+    content: "\e606";
+}
+
+.icon-mode-minibus:before {
+    content: "\e607";
+}
+
+.icon-mode-gondola:before {
+    content: "\e608";
+}
+
+.icon-mode-ferry:before {
+    content: "\e609";
+}
+
+.icon-mode-coach:before {
+    content: "\e60a";
+}
+
+.icon-mode-car-pooling:before {
+    content: "\e60b";
+}
+
+.icon-mode-bicycle-park:before {
+    content: "\e60c";
+}
+
+.icon-mode-car:before {
+    content: "\e60d";
+}
+
+.icon-mode-bus:before {
+    content: "\e60e";
+}
+
+.icon-service-taxi:before {
+    content: "\e60f";
+}
+
+.icon-service-car-lock:before {
+    content: "\e610";
+}
+
+.icon-mode-bicycle:before {
+    content: "\e611";
+}
+
+.icon-service-bicycle-park:before {
+    content: "\e612";
+}
+
+.icon-service-bicycle:before {
+    content: "\e613";
+}
+
+.icon-service-bicycle-lock:before {
+    content: "\e614";
+}
+
+span.mode-icon{
+    background-image:url('../../bundles/canaltpnmmportal/img/modes.png');
+    display:block;
+    height:28px;
+    width:25px;
+}
+span.mode-icon.mode-id-commercial_mode-tramway{
+    background-position-y: -169px;
+}
+span.mode-icon.mode-id-commercial_mode-metro{
+    background-position-y: -140px;
+}
+span.mode-icon.mode-id-commercial_mode-bateau{
+    background-position-y: -196px;
+}

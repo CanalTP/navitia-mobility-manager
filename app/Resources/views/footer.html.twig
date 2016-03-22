@@ -1,0 +1,50 @@
+<div class="clearfix container">
+    <div class="row">
+        <div class="col-md-3">
+            <span class="logo kisio" title="logo kisio digital"></span>
+            <div class="icons-wrapper clearfix">
+                <a title="{{ 'ctp_core._footer.follow_kisio_linkedin'|trans }}" target="_blank" href="http://www.linkedin.com/company/kisio-digital" class="icons linkedin"></a>
+                <a title="{{ 'ctp_core._footer.follow_kisio_twitter'|trans }}" target="_blank" href="http://twitter.com/kisiodigital" class="icons twitter"></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <a title="{{ 'ctp_core._footer.checkout_navitiaio'|trans }}" target="_blank" href="http://www.navitia.io" class="logo navitia"></a>
+            <a title="{{ 'ctp_core._footer.follow_navitia_twitter'|trans }}" target="_blank" href="http://twitter.com/navitia" class="icons twitter"></a>
+        </div>
+        {% if app.user %}
+            <div class="col-md-3">
+                <div class="section-title">
+                    <span class="question-sign">?</span>  {{ 'ctp_core._footer.your_tools'|trans }}
+                </div>
+                <div>
+                    <a target="_blank" href="http://jira.canaltp.fr" class="link">
+                        {{ 'ctp_core._footer.jira'|trans }}
+                    </a>
+                </div>
+                <div>
+                    {% if profiler.has('navitia') %}
+                    {# get token from profiler #}
+                    {# Ouch berk erk bleh :p #}
+                    {% set tokens = profiler.find('', '', 1, '', '', '') %}
+                    {% if tokens|length > 0 %}
+                        <a target="_blank" href="{{ path('_profiler', {token: tokens[0].token, panel:'navitia'}) }}" class="link">
+                            {{ 'ctp_core._footer.debug'|trans }}
+                        </a>
+                    {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-3 last">
+                <div class="section-title">
+                    <span class=""></span><a title="{{ 'ctp_core._footer.contact_us'|trans }}" href="mailto:support@canaltp.fr" class="link">{{ 'ctp_core._footer.contact_us'|trans }}</a>
+                </div>
+                <div>
+                    <a href="tel:0811094917" class="link">
+                        0 811 09 49 17
+                    </a>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+<hr/>

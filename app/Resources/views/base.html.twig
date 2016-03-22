@@ -1,0 +1,22 @@
+{% extends "CanalTPSamCoreBundle::base.html.twig" %}
+
+{% block title %}NMM{% endblock %}
+
+{#{% block head_config %}
+    {{ parent() }}
+    {% include 'CanalTPNmmPortalBundle::config.js.html.twig' %}
+{% endblock %}#}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets 'bundles/canaltpnmmportal/css/*' filter='cssrewrite' output='css/full_nmm.css' %}
+         <link rel="stylesheet" href="{{ asset_url }}?{{ assets_version }}" />
+     {% endstylesheets %}
+{% endblock %}
+
+{% block footer %}
+    {% include '::footer.html.twig' %}
+{% endblock %}
+
+{% block javascripts %}{% endblock %}
+{% block inline_javascripts %}{% endblock %}

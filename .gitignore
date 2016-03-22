@@ -1,0 +1,50 @@
+
+# caches
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+/app/cache/
+/app/logs/
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# CI & test configuration
+/app/phpunit.xml
+/build/
+
+/web/bundles/
+/web/components/
+
+# configuration
+app/config/parameters.yml
+app/config/config.nmm_portal.yml
+config/tmp/
+/app/config/parameters.yml
+
+
+# IDE / text editor
+nbproject
+.idea
+/.settings/
+/.buildpath
+/.project
+*~
+
+# local provisioning
+.vagrant
+
+
+# binaries
+bin/*
+!bin/*.sh
+!bin/update-composer
+
+
+# vendors
+app/SymfonyRequirements.php
+bootstrap.php.cache
+composer.phar
+vendor/
+!/docs/update-composer
+.bundle
+

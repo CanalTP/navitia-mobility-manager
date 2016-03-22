@@ -1,0 +1,28 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_pgsql
+    database_host: 127.0.0.1
+    database_port: 5432
+    database_name: nmm
+    database_user: nmm
+    database_password: nmm
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: ThisTokenIsNotSoSecretChangeIt
+    monitoring.sam.host: ''
+    monitoring.sam.pdf_generator.url: ''
+    monitoring.sam.supervisord.url: ''
+    monitoring.mtt.media_manager.path: ''
+
+
+    security.logout.invalidate_session: false
+
+
+    locale : fr
+    secret:            ThisTokenIsNotSoSecretChangeIt
+    assets_version:    42424242424242424223435435234234234

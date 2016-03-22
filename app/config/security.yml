@@ -1,0 +1,37 @@
+security:
+    encoders:
+        FOS\UserBundle\Model\UserInterface: sha512
+
+    role_hierarchy:
+        ROLE_REFERENT:    ROLE_USER
+        ROLE_ADMIN:       ROLE_REFERENT
+        ROLE_SUPER_ADMIN: ROLE_ADMIN
+
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username_email
+
+    firewalls:
+        dev:
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            pattern: ^/
+            form_login:
+                provider: fos_userbundle
+                csrf_provider: form.csrf_provider
+                success_handler: sam.component.authentication.handler.login_success_handler
+                login_path: fos_user_security_login
+                check_path: fos_user_security_check
+                use_referer: true
+            logout:
+                invalidate_session: %security.logout.invalidate_session%
+                path:   /admin/logout
+            anonymous:    true
+    access_control:
+        - { path: /login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: /register/confirm, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: /resetting/admin-send-email$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: /resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: /security, role: ROLE_USER }
+        - { path: /admin, role: ROLE_USER }
