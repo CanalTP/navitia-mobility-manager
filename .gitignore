@@ -1,3 +1,10 @@
+# assets
+web/css/
+web/js/
+web/components/
+web/uploads/*
+web/bundles/
+
 
 # caches
 /app/bootstrap.php.cache
