@@ -4,7 +4,7 @@ web/js/
 web/components/
 web/uploads/*
 web/bundles/
-
+app/Resources/less/bootstrap.less
 
 # caches
 /app/bootstrap.php.cache
