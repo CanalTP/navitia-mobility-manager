@@ -2,7 +2,7 @@
 
 <h2>What is NMM</h2>
 
-Navitia Mobility Manager(NMM) is a portal that centralize the products backoffice of Kisio DIgital.
+Navitia Mobility Manager(NMM) is a portal that centralize the backoffice products  of Kisio Digital.
 
 ![screnshot login page](docs/screenshot_nmm.png  "login page nmm")
 
@@ -11,7 +11,7 @@ Navitia Mobility Manager(NMM) is a portal that centralize the products backoffic
 <br />
 
 - Timetable
-- Trafic Report
+- Traffic Report
 - Metrics Dashboard
 - Data
 - Matrix
