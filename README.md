@@ -20,7 +20,7 @@ Navitia Mobility Manager(NMM) is a portal that centralize the backoffice product
 
 <h2>Installation</h2>
 
-Please refer to [installation documentation](installation_nmm.md) 
+Please refer to [installation documentation](docs/installation_nmm.md) 
 
 
 
