@@ -5,7 +5,7 @@
 
  <h4>1. php</h4>
 
- 	php 5.x.x
+ 	php >= 5.4.x
 
 
 
@@ -49,7 +49,7 @@ You can also export environment variables (see the different .dist files above)
 
 <h4>4 .Set permissions to cache, logs and uploads directories</h4>
 
-copy the commande line below in terminal in project
+copy the command line below in terminal in project
 
 If you already have  cache and logs.
 
@@ -82,6 +82,8 @@ in terminal run this commande below to initialize your database
 	php app/console assetic:dump
 	php app/console bazinga:js-translation:dump
 	php app/console fos:js-routing:dump
+	php app/console braincrafted:bootstrap:generate
+	
 
 
 <h4> Configuration VHost </h4>
