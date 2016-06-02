@@ -57,13 +57,9 @@ If you already have  cache and logs.
 	rm -rf app/logs/*
 otherwise
 
-	HTTPDUSER=`ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1`
-
-
-	sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX app/cache app/logs
-
-
-	sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX app/cache app/logs
+HTTPDUSER=`ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1`
+ sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
+ sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
 
 
 
@@ -74,7 +70,7 @@ Create database with the same name,the same user and same password than there is
 
 in terminal run this commande below to initialize your database
 
-	php/app console sam:database:reset
+	php app/console sam:database:reset
 
 <h4>6.Install asset,translation,rounting</h4>
 
