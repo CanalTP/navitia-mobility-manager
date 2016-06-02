@@ -58,7 +58,7 @@ If you already have  cache and logs.
 	rm -rf app/logs/*
 otherwise
 follow this link  
-In the rubric `Setting up Permissions` 3th part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
+In the rubric `Setting up Permissions` 3rd part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
 
 http://symfony.com/doc/current/book/installation.html
 
@@ -107,3 +107,6 @@ in terminal run this command below to initialize your database
 If your Apache version is >= 2.4, `AllowOverride All` and `Allow from All` must be replaced with `Require all granted`
 
 
+<h5> note</h5>
+
+If you have in `config.yml`  `strict_variables: "%kernel.debug%"` change this by `strict_variable:false`
