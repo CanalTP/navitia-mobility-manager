@@ -106,7 +106,3 @@ in terminal run this command below to initialize your database
 
 If your Apache version is >= 2.4, `AllowOverride All` and `Allow from All` must be replaced with `Require all granted`
 
-
-<h5> note</h5>
-
-If you have in `config.yml`  `strict_variables: "%kernel.debug%"` change this by `strict_variable:false`
