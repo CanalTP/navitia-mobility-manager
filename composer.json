@@ -88,7 +88,7 @@
 
         "canaltp/nmm-portal-bridge-bundle": "1.0.0",
         "canaltp/navitia-profiler-bundle": "0.0.2",
-        "canaltp/navitia": "v1.1.1",
+        "canaltp/navitia": "v1.1.4",
         "canaltp/sam-monitoring-bundle": "0.1.0"
     },
     "require-dev": {
