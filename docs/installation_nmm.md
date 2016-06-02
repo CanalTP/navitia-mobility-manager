@@ -56,10 +56,11 @@ If you already have  cache and logs.
 	rm -rf app/cache/*
 	rm -rf app/logs/*
 otherwise
+follow this link 
+Setting up Permissions
+Using ACL on a system that supports setfacl (most Linux/BSD)
 
-HTTPDUSER=`ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1`
- sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
- sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
+http://symfony.com/doc/current/book/installation.html
 
 
 
