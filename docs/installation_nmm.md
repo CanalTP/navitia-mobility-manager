@@ -26,9 +26,10 @@
 <h2>Installation</h2>
 <h4>1. Clone the repository</h4>
 
+	git clone https://github.com/CanalTP/navitia-mobility-manager.git
 
 <h4>2.In your project</h4>
- 
+
 	app/config/parameters.yml.dist
 
 	app/config.nmm_portal.yml.dist
@@ -41,7 +42,7 @@ You can also export environment variables (see the different .dist files above)
 
 <h4>3. Install PHP dependencies</h4>
 
- 	curl -sS https://getcomposer.org/installer | php
+	curl -sS https://getcomposer.org/installer | php
 
 	composer.phar install --prefer-source
 
@@ -72,17 +73,17 @@ otherwise
 Create database with the same name,the same user and same password than there is in parameter.yml:
  `database_name ,database_user ,data database_password `.
 
-in terminal run this commande below to initialize your database
+in terminal run this command below to initialize your database
 
-	php/app console sam:database:reset
+	php app/console sam:database:reset
 
 <h4>6.Install asset,translation,rounting</h4>
 
 	php app/console assets:install --symlink
+	php app/console braincrafted:bootstrap:generate
 	php app/console assetic:dump
 	php app/console bazinga:js-translation:dump
 	php app/console fos:js-routing:dump
-	php app/console braincrafted:bootstrap:generate
 	
 
 
@@ -92,9 +93,9 @@ in terminal run this commande below to initialize your database
     		
     		ServerName your servername
 
-    		DocumentRoot path project
+    		DocumentRoot /path/to/your/project/web/
 
-    		<Directory path project>
+    		<Directory /path/to/your/project/web>
         		AllowOverride All
         		Allow from All
         		RewriteEngine On
@@ -104,6 +105,9 @@ in terminal run this commande below to initialize your database
         		RewriteRule ^css/(.*\.css|less)$ css/$1 [L,NC]
     		</Directory>
 	</VirtualHost>
- 
+
+<h5> Note </h5>
+
+If your Apache version is >= 2.4, `AllowOverride All` and `Allow from All` must be replaced with `Require all granted`
 
 
