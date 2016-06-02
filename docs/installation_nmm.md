@@ -57,7 +57,7 @@ If you already have  cache and logs.
 	rm -rf app/logs/*
 otherwise
 follow this link  
-In the rubric `Setting up Permissions` 3th part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
+In the rubric `Setting up Permissions` 3rd part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
 
 http://symfony.com/doc/current/book/installation.html
 
