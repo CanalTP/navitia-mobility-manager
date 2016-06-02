@@ -75,10 +75,11 @@ in terminal run this commande below to initialize your database
 <h4>6.Install asset,translation,rounting</h4>
 
 	php app/console assets:install --symlink
+	php app/console braincrafted:bootstrap:generate
 	php app/console assetic:dump
 	php app/console bazinga:js-translation:dump
 	php app/console fos:js-routing:dump
-	php app/console braincrafted:bootstrap:generate
+	
 	
 
 
