@@ -116,7 +116,8 @@
     },
     "config": {
         "bin-dir": "bin",
-        "component-dir": "web/components"
+        "component-dir": "web/components",
+        "secure-http": false
     },
     "extra": {
         "symfony-app-dir": "app",
