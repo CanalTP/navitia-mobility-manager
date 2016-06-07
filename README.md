@@ -11,10 +11,7 @@ Navitia Mobility Manager(NMM) is a portal that centralize the backoffice product
 <br />
 
 - Timetable
-- Traffic Report
-- Metrics Dashboard
-- Data
-- Matrix
+
 
 
 

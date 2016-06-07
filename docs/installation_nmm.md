@@ -57,14 +57,10 @@ If you already have  cache and logs.
 	rm -rf app/cache/*
 	rm -rf app/logs/*
 otherwise
+follow this link  
+In the rubric `Setting up Permissions` 3rd part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
 
-	HTTPDUSER=`ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1`
-
-
-	sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX app/cache app/logs
-
-
-	sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX app/cache app/logs
+http://symfony.com/doc/current/book/installation.html
 
 
 
@@ -109,5 +105,4 @@ in terminal run this command below to initialize your database
 <h5> Note </h5>
 
 If your Apache version is >= 2.4, `AllowOverride All` and `Allow from All` must be replaced with `Require all granted`
-
 
