@@ -95,7 +95,7 @@ in terminal run this command below to initialize your database
         		AllowOverride All
         		Allow from All
         		RewriteEngine On
-        		RewriteRule !\.(css|less|jst?|ico|png|jpg|jpeg|gif|xml|xsl|swf|htm|php|woff)$ app_dev.php
+        		RewriteRule !\.(css|less|jst?|ico|png|jpg|jpeg|gif|xml|xsl|swf|htm|php|woff|pdf)$ app_dev.php
         		RewriteRule ^javascript/(.*\.jst?)$ javascript/$1 [L,NC]
         		RewriteRule ^images/(.*\.(ico|jpe?g|png|gif))$ images/$1 [L,NC]
         		RewriteRule ^css/(.*\.css|less)$ css/$1 [L,NC]
