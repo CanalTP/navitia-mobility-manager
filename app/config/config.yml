@@ -35,7 +35,7 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     #strict_variables: ~ cf http://symfony.com/doc/2.7/reference/configuration/twig.html
-    strict_variables: ~
+    strict_variables: false
     globals:
         assets_version: %assets_version%
         profiler: @profiler
