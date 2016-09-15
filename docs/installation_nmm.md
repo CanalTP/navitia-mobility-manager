@@ -1,6 +1,4 @@
 
-
-
 <h2>Dependencies</h2>
 
  <h4>1. php</h4>
@@ -8,19 +6,13 @@
  	php >= 5.4.x
 
 
-
-
-
 <h2>Requirements</h2>
 <ul>
-	<li>canaltp/nmm-portal-bridge-bundle": "1.0,</li>
-	<li> canaltp/navitia-profiler-bundle: "0.0.2",</li>
-	<li>canaltp/navitia: "v1.1.4",</li>
 	<li>php5-gd,php5-psql,php5-curl,php5-mcrypt and php5-intl librairies</li>
 
 </ul>
 <h4>Database</h4>
-	postgresql >= 9.0.0
+	postgresql >= 9.1
 
 <br />
 <h2>Installation</h2>
@@ -32,7 +24,7 @@
 
 	app/config/parameters.yml.dist
 
-	app/config.nmm_portal.yml.dist
+	app/config/config.nmm_portal.yml.dist
 
 create the files above without the `.dist` extension .
 
