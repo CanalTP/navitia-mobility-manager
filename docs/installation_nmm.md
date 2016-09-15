@@ -1,26 +1,22 @@
+## Requirements
+* PHP >= 5.4
+* The following PHP extensions are required:
+ * bcmath
+ * pdo_pgsql
+ * curl
+ * mcrypt
+ * intl
 
-<h2>Dependencies</h2>
+* postgresql >= 9.1
+* apache 2.2 or newer
 
- <h4>1. php</h4>
+## Installation
 
- 	php >= 5.4.x
-
-
-<h2>Requirements</h2>
-<ul>
-	<li>php5-gd,php5-psql,php5-curl,php5-mcrypt and php5-intl librairies</li>
-
-</ul>
-<h4>Database</h4>
-	postgresql >= 9.1
-
-<br />
-<h2>Installation</h2>
-<h4>1. Clone the repository</h4>
+1. Clone the repository
 
 	git clone https://github.com/CanalTP/navitia-mobility-manager.git
 
-<h4>2.In your project</h4>
+2.In your project
 
 	app/config/parameters.yml.dist
 
@@ -28,19 +24,15 @@
 
 create the files above without the `.dist` extension .
 
-
 You can also export environment variables (see the different .dist files above)
 
-
-<h4>3. Install PHP dependencies</h4>
+3. Install PHP dependencies
 
 	curl -sS https://getcomposer.org/installer | php
 
 	composer.phar install --prefer-source
 
-
-
-<h4>4 .Set permissions to cache, logs and uploads directories</h4>
+4 .Set permissions to cache, logs and uploads directories
 
 copy the command line below in terminal in project
 
@@ -48,15 +40,14 @@ If you already have  cache and logs.
 
 	rm -rf app/cache/*
 	rm -rf app/logs/*
+
 otherwise
 follow this link  
 In the rubric `Setting up Permissions` 3rd part `Using ACL on a system that supports setfacl (most Linux/BSD)`.
 
 http://symfony.com/doc/current/book/installation.html
 
-
-
-<h4>5. Install database</h4>
+5. Install database
 
 Create database with the same name,the same user and same password than there is in parameter.yml:
  `database_name ,database_user ,data database_password `.
@@ -65,7 +56,7 @@ in terminal run this command below to initialize your database
 
 	php app/console sam:database:reset
 
-<h4>6.Install asset,translation,rounting</h4>
+6.Install asset,translation,rounting
 
 	php app/console assets:install --symlink
 	php app/console braincrafted:bootstrap:generate
@@ -75,7 +66,7 @@ in terminal run this command below to initialize your database
 	
 
 
-<h4> Configuration VHost </h4>
+# Configuration VHost
 
 	<VirtualHost *:80>
     		
@@ -94,7 +85,7 @@ in terminal run this command below to initialize your database
     		</Directory>
 	</VirtualHost>
 
-<h5> Note </h5>
+**Note**
 
 If your Apache version is >= 2.4, `AllowOverride All` and `Allow from All` must be replaced with `Require all granted`
 
