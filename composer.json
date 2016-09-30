@@ -42,7 +42,7 @@
                 "name": "jquery/limit",
                 "version": "1.2.0",
                 "dist": {
-                    "url": "https://jquery-limit.googlecode.com/files/jquery.limit-1.2.js",
+                    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jquery-limit/jquery.limit-1.2.js",
                     "type": "file"
                 }
             }
