@@ -13,11 +13,7 @@
 
 <h2>Requirements</h2>
 <ul>
-	<li>canaltp/nmm-portal-bridge-bundle": "1.0,</li>
-	<li> canaltp/navitia-profiler-bundle: "0.0.2",</li>
-	<li>canaltp/navitia: "v1.1.4",</li>
-	<li>php5-gd,php5-psql,php5-curl,php5-mcrypt and php5-intl librairies</li>
-
+   <li>php5-gd, php5-psql, php5-curl, and php5-intl librairies</li>
 </ul>
 <h4>Database</h4>
 	postgresql >= 9.0.0
