@@ -9,12 +9,6 @@
     },
     "repositories" :[
     {
-    
-        "type": "composer",
-        "url": "http://packagist.canaltp.fr"
-    
-    },
-    {
         "type": "package",
         "package": {
             "name": "components/bootstrap-extensions/table",
