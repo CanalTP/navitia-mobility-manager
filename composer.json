@@ -117,8 +117,14 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
-        "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
-        }
+        "incenteev-parameters": [
+            {
+                "file": "app/config/parameters.yml"
+            },
+            {
+                "file": "app/config/config.nmm_portal.yml",
+                "parameter-key": "canal_tp_nmm_portal"
+            }
+        ]
     }
 }
