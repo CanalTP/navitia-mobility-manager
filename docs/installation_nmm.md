@@ -40,7 +40,7 @@ You can also export environment variables (see the different .dist files above)
 
 	curl -sS https://getcomposer.org/installer | php
 
-	composer.phar install --prefer-source
+	composer.phar install
 
 
 
