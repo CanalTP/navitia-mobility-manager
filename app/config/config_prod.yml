@@ -25,3 +25,10 @@ monolog:
             level: debug
         console:
             type:  console
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/routing_prod.yml"
+        strict_requirements: true
+    profiler:
+        only_exceptions: false

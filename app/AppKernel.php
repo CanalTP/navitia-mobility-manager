@@ -26,7 +26,9 @@ class AppKernel extends Kernel
             new Claroline\MigrationBundle\ClarolineMigrationBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
-            
+
+            new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(),
+
             new CanalTP\SamCoreBundle\CanalTPSamCoreBundle(),
             new CanalTP\SamCoreBridgeBundle\CanalTPSamCoreBridgeBundle(),
             new CanalTP\SamEcoreApplicationManagerBundle\CanalTPSamEcoreApplicationManagerBundle(),
@@ -40,7 +42,6 @@ class AppKernel extends Kernel
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
-            $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle();
