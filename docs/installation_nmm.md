@@ -62,14 +62,14 @@ http://symfony.com/doc/current/book/installation.html
 
 <h4>5. Install database</h4>
 
-Create database with the same name,the same user and same password than there is in parameter.yml:
- `database_name ,database_user ,data database_password `.
+Create database with the same name, the same user and the same password as you set in parameter.yml:
+ `database_name, database_user, database_password`.
 
 in terminal run this command below to initialize your database
 
 	php app/console sam:database:reset
 
-<h4>6.Install asset,translation,rounting</h4>
+<h4>6.Install asset, translation, rounting</h4>
 
 	php app/console assets:install --symlink
 	php app/console braincrafted:bootstrap:generate
