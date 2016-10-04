@@ -52,7 +52,6 @@ assetic:
         cssrewrite: ~
         lessphp:
              file: %kernel.root_dir%/../vendor/oyejorge/less.php/lessc.inc.php
-#             file: %kernel.root_dir%/../../vendor/oyejorge/less.php/lessc.inc.php
              apply_to: "\.less$"
     assets:
         bootstrap_table_js:
