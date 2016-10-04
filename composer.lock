@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e094e082eb9b6bb8b16d78ffc75cfaf0",
-    "content-hash": "b9217fe5e3bc063760e2c5632dd8a76c",
+    "hash": "d4d5dbcf7b3ea7da63506e3257c7e1c2",
+    "content-hash": "6ec943037d9b52cd4da2bfbbd61da822",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -172,7 +172,7 @@
                     "Navitia\\Component\\": ""
                 }
             },
-            "notification-url": "http://packagist.canaltp.fr/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -544,12 +544,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CanalTP/SamEcoreSecurityManagerBundle.git",
-                "reference": "e67d9fb0f57ddf83af522c97078b7911ee76fa84"
+                "reference": "dd371b5d64633b8bc26e41dde12d87079859f89b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CanalTP/SamEcoreSecurityManagerBundle/zipball/e67d9fb0f57ddf83af522c97078b7911ee76fa84",
-                "reference": "e67d9fb0f57ddf83af522c97078b7911ee76fa84",
+                "url": "https://api.github.com/repos/CanalTP/SamEcoreSecurityManagerBundle/zipball/dd371b5d64633b8bc26e41dde12d87079859f89b",
+                "reference": "dd371b5d64633b8bc26e41dde12d87079859f89b",
                 "shasum": ""
             },
             "require": {
@@ -666,7 +666,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CanalTP/SamMonitoringComponent.git",
-                "reference": "b46f3d95d79e2349c1b2c75d1c5a5abcba701007"
+                "reference": "40d07670b064a89f6e04738ae9c8691239d60691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CanalTP/SamMonitoringComponent/zipball/40d07670b064a89f6e04738ae9c8691239d60691",
+                "reference": "40d07670b064a89f6e04738ae9c8691239d60691",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
@@ -678,24 +684,24 @@
                     "src/"
                 ]
             },
-            "notification-url": "http://packagist.canaltp.fr/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Rémy Abi-Khalil",
-                    "email": "remy.abikhalil@canaltp.fr"
+                    "name": "Kévin ZIEMIANSKI",
+                    "email": "kevin.ziemianski@canaltp.fr"
                 },
                 {
-                    "name": "Kevin ZIEMIANSKI",
-                    "email": "kevin.ziemianski@canaltp.fr"
+                    "name": "Rémy Abi-Khalil",
+                    "email": "remy.abikhalil@canaltp.fr"
                 }
             ],
             "description": "Sam Monitoring Component",
             "keywords": [
-                "SAM",
-                "monitoring"
+                "monitoring",
+                "sam"
             ],
             "time": "2015-01-26 13:17:08"
         },
@@ -705,7 +711,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CanalTP/SamMonitoringBundle.git",
-                "reference": "95354a33f09fe57a8ae6ac76f7f7e2b1044df61b"
+                "reference": "6cdae31897b909ec7adbf2363e2095eecad68c31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CanalTP/SamMonitoringBundle/zipball/6cdae31897b909ec7adbf2363e2095eecad68c31",
+                "reference": "6cdae31897b909ec7adbf2363e2095eecad68c31",
+                "shasum": ""
             },
             "require": {
                 "canaltp/sam-monitoring": "0.1.0"
@@ -716,18 +728,18 @@
                     "CanalTP\\SamMonitoringBundle\\": ""
                 }
             },
-            "notification-url": "http://packagist.canaltp.fr/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Rémy Abi-Khalil",
-                    "email": "remy.abikhalil@canaltp.fr"
+                    "name": "Kévin ZIEMIANSKI",
+                    "email": "kevin.ziemianski@canaltp.fr"
                 },
                 {
-                    "name": "Kevin ZIEMIANSKI",
-                    "email": "kevin.ziemianski@canaltp.fr"
+                    "name": "Rémy Abi-Khalil",
+                    "email": "remy.abikhalil@canaltp.fr"
                 }
             ],
             "description": "Sam Monitoring Bundle",
