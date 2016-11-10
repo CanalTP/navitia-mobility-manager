@@ -22,9 +22,6 @@
 /build/
 
 # configuration
-app/config/parameters.yml
-app/config/config.nmm_portal.yml
-config/tmp/
 /app/config/parameters.yml
 
 # binaries

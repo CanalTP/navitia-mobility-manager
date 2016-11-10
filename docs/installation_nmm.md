@@ -28,10 +28,7 @@
 
 	app/config/parameters.yml.dist
 
-	app/config.nmm_portal.yml.dist
-
-create the files above without the `.dist` extension .
-
+create the file above without the `.dist` extension .
 
 You can also export environment variables (see the different .dist files above)
 

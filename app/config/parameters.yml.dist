@@ -21,3 +21,6 @@ parameters:
     locale : fr
     secret:            ThisTokenIsNotSoSecretChangeIt
     assets_version:    42424242424242424223435435234234234
+
+    nmm.navitia.url: 'https://navitia'
+    nmm.navitia.token: abgytc #replace this token by your token navitia
