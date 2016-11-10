@@ -1,15 +1,13 @@
-canal_tp_sam_bridge:
-    resource: "@CanalTPSamCoreBridgeBundle/Resources/config/routing.yml"
-    prefix:   /
+sam___:
+    resource: "."
+    type: sam
+
 root:
     pattern: /
     defaults:
         route: fos_user_security_login
         _controller: FrameworkBundle:Redirect:redirect
-sam___:
-    resource: "."
-    type: sam
-    
+
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
 

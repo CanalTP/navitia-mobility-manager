@@ -15,13 +15,8 @@ parameters:
     mailer_password: null
     secret: ThisTokenIsNotSoSecretChangeIt
     monitoring.sam.host: ''
-    monitoring.sam.pdf_generator.url: ''
-    monitoring.sam.supervisord.url: ''
-    monitoring.mtt.media_manager.path: ''
-
 
     security.logout.invalidate_session: false
-
 
     locale : fr
     secret:            ThisTokenIsNotSoSecretChangeIt
