@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "799fb3d086fb9a6b7eacc6388b3b2058",
-    "content-hash": "d25f48a2a3615d93cd0ce05e7109e127",
+    "hash": "2be142eec0b90103104e4681556f338f",
+    "content-hash": "27d457e3bcf378702537fb1375ae55d1",
     "packages": [
         {
             "name": "afarkas/html5shiv",

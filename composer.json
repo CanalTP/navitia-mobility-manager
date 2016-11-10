@@ -109,7 +109,12 @@
         "symfony-assets-install": "relative",
         "incenteev-parameters": [
             {
-                "file": "app/config/parameters.yml"
+                "file": "app/config/parameters.yml",
+                "env-map": {
+                    "nmm.navitia.url": "NMM_NAVITIA_URL",
+                    "nmm.navitia.token": "NMM_NAVITIA_TOKEN",
+                    "database_host": "NMM_DATABASE_HOST"
+                }
             }
         ]
     }
