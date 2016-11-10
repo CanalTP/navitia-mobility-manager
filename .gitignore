@@ -35,6 +35,8 @@ bin/*
 app/SymfonyRequirements.php
 bootstrap.php.cache
 composer.phar
-vendor/
+/vendor/
 .bundle
+/web/config.php
+/app/check.php
 
