@@ -67,7 +67,7 @@ Create database with the same name, the same user and the same password as you s
 
 in terminal run this command below to initialize your database
 
-	php app/console sam:database:reset
+	php app/console sam:database:reset --load-fixtures
 
 <h4>6.Install asset, translation, rounting</h4>
 
