@@ -22,9 +22,6 @@
 /build/
 
 # configuration
-app/config/parameters.yml
-app/config/config.nmm_portal.yml
-config/tmp/
 /app/config/parameters.yml
 
 # binaries
@@ -35,6 +32,8 @@ bin/*
 app/SymfonyRequirements.php
 bootstrap.php.cache
 composer.phar
-vendor/
+/vendor/
 .bundle
+/web/config.php
+/app/check.php
 

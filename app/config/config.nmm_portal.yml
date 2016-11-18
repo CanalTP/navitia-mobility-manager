@@ -1,0 +1,5 @@
+canal_tp_nmm_portal:
+    navitia:
+        url: "%nmm.navitia.url%"
+        token: "%nmm.navitia.token%"
+        format: object

@@ -30,12 +30,10 @@ class AppKernel extends Kernel
             new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(),
 
             new CanalTP\SamCoreBundle\CanalTPSamCoreBundle(),
-            new CanalTP\SamCoreBridgeBundle\CanalTPSamCoreBridgeBundle(),
             new CanalTP\SamEcoreApplicationManagerBundle\CanalTPSamEcoreApplicationManagerBundle(),
             new CanalTP\SamEcoreUserManagerBundle\CanalTPSamEcoreUserManagerBundle(),
             new CanalTP\SamEcoreSecurityBundle\CanalTPSamEcoreSecurityBundle(),
             new CanalTP\SamMonitoringBundle\CanalTPSamMonitoringBundle(),
-            new CanalTP\NmmPortalBridgeBundle\CanalTPNmmPortalBridgeBundle(),
             new CanalTP\NmmPortalBundle\CanalTPNmmPortalBundle(),
             new CanalTP\NavitiaProfilerBundle\NavitiaProfilerBundle(),
         );

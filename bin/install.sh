@@ -11,4 +11,3 @@ php app/console braincrafted:bootstrap:generate
 php app/console assetic:dump
 php app/console bazinga:js-translation:dump
 php app/console fos:js-routing:dump
-php app/console doctrine:fixtures:load
