@@ -1,6 +1,6 @@
 {
     "name": "canaltp/nmmopen",
-    "license": "proprietary",
+    "license": "AGPLv3",
     "type": "project",
     "autoload": {
         "psr-4": {
