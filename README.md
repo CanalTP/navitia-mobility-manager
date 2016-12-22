@@ -19,6 +19,6 @@ Navitia Mobility Manager(NMM) is a portal that centralize the backoffice product
 Please refer to [installation documentation](docs/installation_nmm.md) 
 
 
+##License
 
-
-
+This library is under [AGPLv3](LICENSE).
