@@ -73,7 +73,7 @@
         "canaltp/nmm-portal-bundle": "^1.7",
         "knplabs/knp-menu": "1.1.*",
         "twig/twig": "1.41.*",
-        "twbs/bootstrap": "3.1.*"
+        "twbs/bootstrap": "3.3.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.1",
