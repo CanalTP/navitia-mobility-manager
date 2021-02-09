@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "906d454a82ac428718b58a5c7a773713",
+    "content-hash": "7b27af74aa35738cee80bcd9dfb3e84b",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -2180,21 +2180,21 @@
         },
         {
             "name": "eternicode/bootstrap-datepicker",
-            "version": "v1.9.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uxsolutions/bootstrap-datepicker.git",
-                "reference": "fb8776d65825068b9f914ab37d6fd847c951f488"
+                "reference": "51ffa7ec95a9d4b239f48a76e07e96c982cb5c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uxsolutions/bootstrap-datepicker/zipball/fb8776d65825068b9f914ab37d6fd847c951f488",
-                "reference": "fb8776d65825068b9f914ab37d6fd847c951f488",
+                "url": "https://api.github.com/repos/uxsolutions/bootstrap-datepicker/zipball/51ffa7ec95a9d4b239f48a76e07e96c982cb5c36",
+                "reference": "51ffa7ec95a9d4b239f48a76e07e96c982cb5c36",
                 "shasum": ""
             },
             "require": {
-                "components/bootstrap": ">=2.0, <4.0",
-                "components/jquery": ">=1.7.1, <4.0.0",
+                "components/bootstrap": ">=3.0, <4.0",
+                "components/jquery": ">=1.7.1",
                 "robloach/component-installer": "*"
             },
             "type": "component",
@@ -2204,8 +2204,8 @@
                         "js/bootstrap-datepicker.js"
                     ],
                     "styles": [
-                        "dist/css/bootstrap-datepicker.css",
-                        "dist/css/bootstrap-datepicker3.css"
+                        "css/datepicker.css",
+                        "css/datepicker3.css"
                     ],
                     "files": [
                         "js/locales/bootstrap-datepicker.*.js"
@@ -2213,29 +2213,16 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Andrew Rowls",
-                    "email": "eternicode@gmail.com"
-                },
-                {
-                    "name": "Community",
-                    "homepage": "https://github.com/uxsolutions/bootstrap-datepicker/contributors"
-                }
-            ],
-            "description": "A datepicker for Bootstrap",
+            "description": "A datepicker for twitter bootstrap forked from Stefan Petre's (of eyecon.ro)",
             "keywords": [
                 "bootstrap",
                 "datepicker"
             ],
             "support": {
                 "issues": "https://github.com/uxsolutions/bootstrap-datepicker/issues",
-                "source": "https://github.com/uxsolutions/bootstrap-datepicker/tree/v1.9.0"
+                "source": "https://github.com/uxsolutions/bootstrap-datepicker/tree/1.3.1"
             },
-            "time": "2019-05-20T07:36:46+00:00"
+            "time": "2014-12-17T21:11:06+00:00"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
