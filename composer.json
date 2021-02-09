@@ -56,7 +56,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
         "willdurand/js-translation-bundle": "^2.6",
-        "twbs/bootstrap": "2.3.*",
         "braincrafted/bootstrap-bundle": "dev-master",
         "oyejorge/less.php": "v1.7.0.14",
         "respondjs/respondjs": "^1.4",
@@ -66,7 +65,7 @@
         "components/jqueryui": "^1.12",
         "twig/extensions": "^1.5",
         "afarkas/html5shiv": "^3.7",
-        "eternicode/bootstrap-datepicker": "^1.9",
+        "eternicode/bootstrap-datepicker": "1.9.*",
         "doctrine/dbal": "^2.5",
         "doctrine/doctrine-migrations-bundle": "^1.3",
         "doctrine/migrations": "^1.5",
@@ -74,7 +73,7 @@
         "canaltp/nmm-portal-bundle": "^1.7",
         "knplabs/knp-menu": "1.1.*",
         "twig/twig": "1.41.*",
-        "twitter/bootstrap": "2.3.*"
+        "twbs/bootstrap": "3.1.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.1",
