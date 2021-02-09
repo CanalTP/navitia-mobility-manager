@@ -56,7 +56,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
         "willdurand/js-translation-bundle": "^2.6",
-        "braincrafted/bootstrap-bundle": "dev-master",
+        "braincrafted/bootstrap-bundle": "^2.2",
         "oyejorge/less.php": "v1.7.0.14",
         "respondjs/respondjs": "^1.4",
         "components/bootstrap-extensions-table": "^1.9",
@@ -86,7 +86,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Braincrafted\\\\Bundle\\\\BootstrapBundle\\\\Composer\\\\ScriptHandler::install"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -94,7 +95,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Braincrafted\\\\Bundle\\\\BootstrapBundle\\\\Composer\\\\ScriptHandler::install"
         ]
     },
     "config": {

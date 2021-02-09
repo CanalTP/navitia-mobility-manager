@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b7be34bf91899c3436893f335fc67c6",
+    "content-hash": "ed4b601ea2969040c46381a8e4cd5d6f",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -92,7 +92,7 @@
         },
         {
             "name": "braincrafted/bootstrap-bundle",
-            "version": "dev-master",
+            "version": "v2.2.0",
             "target-dir": "Braincrafted/Bundle/BootstrapBundle",
             "source": {
                 "type": "git",
@@ -151,7 +151,7 @@
             ],
             "support": {
                 "issues": "https://github.com/braincrafted/bootstrap-bundle/issues",
-                "source": "https://github.com/braincrafted/bootstrap-bundle/tree/v2.2.0"
+                "source": "https://github.com/braincrafted/bootstrap-bundle/tree/develop"
             },
             "time": "2016-01-23T17:44:32+00:00"
         },
@@ -5176,9 +5176,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "braincrafted/bootstrap-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
