@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed4b601ea2969040c46381a8e4cd5d6f",
+    "content-hash": "fdb10083c1ada02e79001aedc3d43785",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -92,35 +92,34 @@
         },
         {
             "name": "braincrafted/bootstrap-bundle",
-            "version": "v2.2.0",
+            "version": "v2.0.0",
             "target-dir": "Braincrafted/Bundle/BootstrapBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "23ae42061668d0fdc999b63db55c264265e037ab"
+                "reference": "ea12dae03f67cb718c66c50a5b59d523e8ba80a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/23ae42061668d0fdc999b63db55c264265e037ab",
-                "reference": "23ae42061668d0fdc999b63db55c264265e037ab",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/ea12dae03f67cb718c66c50a5b59d523e8ba80a9",
+                "reference": "ea12dae03f67cb718c66c50a5b59d523e8ba80a9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/console": "~2.6|~3.0",
-                "symfony/finder": "~2.6|~3.0",
-                "symfony/form": "~2.6|~3.0",
-                "symfony/framework-bundle": "~2.6|~3.0",
-                "symfony/twig-bundle": "~2.6|~3.0",
-                "twig/twig": "~1.12|~2.0@dev"
+                "symfony/console": "~2.3",
+                "symfony/finder": "~2.3",
+                "symfony/form": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/twig-bundle": "~2.3"
             },
             "require-dev": {
                 "knplabs/knp-menu": "~2.0@alpha",
                 "knplabs/knp-menu-bundle": "~2.0@alpha",
                 "knplabs/knp-paginator-bundle": "dev-master",
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~3.7",
-                "symfony/assetic-bundle": "~2.6|~3.0"
+                "mockery/mockery": "0.8.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/assetic-bundle": "~2.3"
             },
             "suggest": {
                 "knplabs/knp-menu": "Required to use KnpMenuBundle.",
@@ -142,7 +141,8 @@
                 {
                     "name": "Florian Eckerstorfer",
                     "email": "florian@eckerstorfer.co",
-                    "homepage": "http://florian.ec"
+                    "homepage": "http://florian.ec",
+                    "role": "Developer"
                 }
             ],
             "description": "BraincraftedBootstrapBundle integrates Bootstrap into Symfony2 by providing templates, Twig extensions, services and commands.",
@@ -153,7 +153,7 @@
                 "issues": "https://github.com/braincrafted/bootstrap-bundle/issues",
                 "source": "https://github.com/braincrafted/bootstrap-bundle/tree/develop"
             },
-            "time": "2016-01-23T17:44:32+00:00"
+            "time": "2014-01-02T10:46:25+00:00"
         },
         {
             "name": "canaltp/navitia",
